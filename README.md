@@ -1,5 +1,5 @@
 # MOBILEYE-PROJECT
-In this Mobileye project we detect traffic lights and calculates the distance to it
+In this Mobileye project we detect traffic lights and calculate the distance to them.
 
 This project is divided into four parts. We worked gradually on each part until the complete and then we went on to the next part.
 We used a huge dataset of pictures for our tests.
