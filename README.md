@@ -26,8 +26,10 @@ We also changed the threshold that was defined for the output result,instead of
 
 Part 3:
 In this part we had to find the estimated distance to all TFL.
-To do this we have to have at least two images that were taken in a known time difference and then we will rotate the image that we will find a line to the Tfl in both images(epipoline) and then we can calculate the distance
-"?????????????????????????????????????????????????????????????"
+To do this we have to have  two images one will be the current and the other will be the previos. The TFL light is defined as point p where we have a line in both images to the car in the rotated image we'll call it p'. The line between the cars in both images is called the baseline. Now we can define the epiporplane and having thet we can define the epipolar lines.Than by definition , P’s projection into the second image p must be located on the epipolar line of the second image.
+To get the real position we used the formula that declares that to get from image to image it will be multiplied by a rotation R and then by a translation T(EGO MOTION).
+in both the images from where we are calculating the distance to THAT POINT P. in a known time difference and then we will rotate the image that we will find a line to the Tfl in both images(epipoline) and then we can calculate the distance and then can use the formula of calculating the rotated image multiplied by a special matrix.
+Than we find the distance by calculating the relatively between them and that will be the distance.
 
 Part 4:
 In this part we had to do the integration of all parts.
